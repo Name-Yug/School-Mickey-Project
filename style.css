@@ -1,0 +1,34 @@
+body {
+	background-color: cornsilk;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("Images/tears-white-small.png");
+}
+
+h1 {
+	text-align: center;
+	text-shadow: 2px 1px darkgray;
+	letter-spacing: 2px;
+	font-variant: small-caps;
+}
+
+h2 {
+	background-color: black;
+	color: cornsilk;
+}
+
+a:link,
+a:visited {
+	color: #722f30;
+}
+
+a:hover {
+	color: #722f30;
+	text-decoration: none;
+	font-style: italic;
+}
+
+footer {
+	text-align: center;
+	font-style: italic;
+	font-size: small;
+}
