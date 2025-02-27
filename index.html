@@ -1,3 +1,4 @@
+<!-- Created by Yug Patel -->
 <!DOCTYPE html>
 <html>
 	<head>
@@ -10,13 +11,16 @@
 	<body>
 		<header style="color: dimgray"><h1>Mickey M. Mouse</h1></header>
 		<aside>
-			<h4>
+			<h4 class="topaddress">
 				Walt Disney World, Orlando,&nbsp;FL 11110 <br />
 				&phone; <a href="tel:+1-555-555-5555">(555) 555-5555</a> <br />
 				mickey@make&#8209;believe.com
 			</h4>
 			<p style="text-align: center">
-				<img src="Images/mickey.gif" alt="Mickey Picture" />
+				<picture>
+					<source media="(min-width: 500px)" srcset="Images/mmface.png" />
+					<img src="Images/mickey.gif" alt="Mickey Picture" />
+				</picture>
 			</p>
 		</aside>
 		<main>
@@ -34,9 +38,9 @@
 			<h2>&#10026; EXPERIENCE</h2>
 			<p>
 				<strong>Cartoon Mice for Social Change</strong>, Washington D.C. Public
-				Relations Director, Sept 2007-Present
+				Relations Director, <span class="prettywords">Sept 2007-Present</span>
 			</p>
-			<ul>
+			<ul class="expicons">
 				<li>
 					Communicate with the public on important social issues from homeless
 					mice to cartoonist unemployment
@@ -52,9 +56,10 @@
 			</ul>
 			<p>
 				<strong>The Mickey Mouse Club</strong> , Orlando, FL President and
-				<abbr title="Cheif Executive Officer">CEO</abbr>, June 2002-Aug 2007
+				<abbr title="Cheif Executive Officer">CEO</abbr>,
+				<span class="prettywords">June 2002-Aug 2007</span>
 			</p>
-			<ul>
+			<ul class="expicons">
 				<li>He's the leader of the club that's made for you and me</li>
 				<li>Created this five hundred employee organization from scratch</li>
 				<li>
@@ -82,6 +87,13 @@
 				</dd>
 			</dl>
 		</main>
-		<footer>&copy; Copyright 2025. Created by Yug Patel with &hearts;</footer>
+		<footer>
+			<img class="fancypic" src="Images/mickeycrew.jpg" alt="Mickey Crew" />
+			<p>
+				<small>
+					&copy; Copyright 2025. Created by Yug Patel with &hearts;
+				</small>
+			</p>
+		</footer>
 	</body>
 </html>
